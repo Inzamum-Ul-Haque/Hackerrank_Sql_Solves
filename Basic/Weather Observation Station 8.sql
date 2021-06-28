@@ -1,0 +1,3 @@
+select City from Station
+where (City like "a%a" or City like "a%e" or City like "a%i" or City like "a%o" or City like "a%u") or (City like "e%a" or City like "e%e" or City like "e%i" or City like "e%o" or City like "e%u") or (City like "i%a" or City like "i%e" or City like "i%i" or City like "i%o" or City like "i%u") or (City like "o%a" or City like "o%e" or City like "o%i" or City like "o%o" or City like "o%u") or (City like "u%a" or City like "u%e" or City like "u%i" or City like "u%o" or City like "u%u")
+Group by City
